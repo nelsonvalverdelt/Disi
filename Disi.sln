@@ -3,7 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disi.Droid", "Disi.Droid\Disi.Droid.csproj", "{80A8B7FC-C772-49D8-8308-39EFA54AA205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disi.Service", "Disi.Service\Disi.Service.csproj", "{0091BD94-FEEF-4ADA-A735-6ED5AA266051}"
+EndProject
+Project("{DA7A21FA-8162-4350-AD77-A8D1B671F3ED}") = "Disi.Analysis", "Disi.Analysis\Disi.Analysis.rxproj", "{CAEB28E5-976B-4BD4-8D2E-D16CC4F24949}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80A8B7FC-C772-49D8-8308-39EFA54AA205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A8B7FC-C772-49D8-8308-39EFA54AA205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A8B7FC-C772-49D8-8308-39EFA54AA205}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{80A8B7FC-C772-49D8-8308-39EFA54AA205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A8B7FC-C772-49D8-8308-39EFA54AA205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A8B7FC-C772-49D8-8308-39EFA54AA205}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0091BD94-FEEF-4ADA-A735-6ED5AA266051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0091BD94-FEEF-4ADA-A735-6ED5AA266051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0091BD94-FEEF-4ADA-A735-6ED5AA266051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0091BD94-FEEF-4ADA-A735-6ED5AA266051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAEB28E5-976B-4BD4-8D2E-D16CC4F24949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAEB28E5-976B-4BD4-8D2E-D16CC4F24949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAEB28E5-976B-4BD4-8D2E-D16CC4F24949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAEB28E5-976B-4BD4-8D2E-D16CC4F24949}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
